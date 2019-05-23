@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 全键盘 -->
+<Keyboard
+    bg_res="@drawable/translate_draw"
+    key_bg_res="@drawable/translate_draw"
+    key_height="@dimen/h_60"
+    key_left_padding="@dimen/w_5"
+    key_press_res="@drawable/softkey_bg_press"
+    key_select_res="@drawable/key_select_draw"
+    key_text_color="#ffffff"
+    left_right_move = "flase"
+    key_text_size="@dimen/w_38"
+    key_top_padding="@dimen/h_10"
+    key_width="@dimen/w_80"
+    start_pos_x="@dimen/w_10"
+    start_pos_y="@dimen/h_20" >
+
+    <!-- 第一行 -->
+    <row>
+        <!-- 123数字切换 -->
+        <key
+            key_code="250"
+            key_icon="@drawable/key_123" />
+        <!-- 删除 -->
+        <key
+            key_code="@string/keycode_del"
+            key_left_padding="@dimen/w_90"
+            key_icon="@drawable/key_clear" />
+        <!-- 删除 -->
+        <key
+            key_code="@string/keycode_back"
+            key_left_padding="@dimen/w_90"
+            key_icon="@drawable/key_back"
+            />
+    </row>
+
+    <!-- 第二行 -->
+    <row>
+        <keys
+            labels="A|B|C|D|E"
+            splitter="|" />
+    </row>
+
+    <!-- 第三行 -->
+    <row>
+        <keys
+            labels="F|G|H|I|J"
+            splitter="|" />
+    </row>
+
+    <!-- 第三行 -->
+    <row>
+        <keys
+            labels="K|L|M|N|O"
+            splitter="|" />
+    </row>
+
+    <!-- 第三行 -->
+    <row>
+        <keys
+            labels="P|Q|R|S|T"
+            splitter="|" />
+    </row>
+
+    <!-- 第四行 -->
+    <row>
+        <keys
+            labels="U|V|W|X|Y"
+            splitter="|" />
+    </row>
+
+    <row>
+        <key key_label="Z" />
+    </row>
+
+</Keyboard>

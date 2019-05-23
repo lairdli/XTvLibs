@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <com.avit.xtvlibs.view.PickerViewTV
+        android:id="@+id/picker_view1"
+        style="@style/PickViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <requestFocus />
+    </com.avit.xtvlibs.view.PickerViewTV>
+
+
+    <com.avit.xtvlibs.view.PickerViewTV
+        android:id="@+id/picker_view2"
+        style="@style/PickViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.1dp"
+        android:layout_weight="1" />
+
+    <com.avit.xtvlibs.view.PickerViewTV
+        android:id="@+id/picker_view3"
+        style="@style/PickViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.1dp"
+        android:layout_weight="1" />
+
+    <com.avit.xtvlibs.view.PickerViewTV
+        android:id="@+id/picker_view4"
+        style="@style/PickViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.1dp"
+        android:layout_weight="1" />
+</LinearLayout>

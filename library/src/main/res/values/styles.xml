@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppHistoryTheme" parent="Theme.AppCompat.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowBackground">@drawable/video_bg</item>
+    <item name="android:textViewStyle">@style/AppTheme.Widget.TextView</item>
+    </style>
+
+    <style name="ContentOverlay" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/AppTheme.Widget.TextView</item>
+    </style>
+    <!-- dialog theme -->
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!--NineBoxKeyBoard-->
+    <style name="NineBoxContainerBase">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <!--<item name="android:onClick">onContainerClick</item>-->
+        <item name="android:background">@drawable/ninebox_keyboard_container_selector</item>
+    </style>
+
+    <style name="NineBoxContainer" parent="NineBoxContainerBase">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColor">@drawable/ninebox_keyboard_button_font_selector</item>
+    </style>
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_window_open</item>
+        <item name="android:windowExitAnimation">@anim/popup_window_close</item>
+    </style>
+
+    <!--NineBoxKeyBoard-->
+    <style name="PickViewStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">true</item>
+        <item name="select_text_color">@android:color/white</item>
+        <item name="select_text_size">22sp</item>
+        <item name="normal_text_color">@android:color/white</item>
+        <item name="normal_text_size">20sp</item>
+        <item name="select_item_focus_color">#ff14A8FE</item>
+        <item name="select_item_normal_color">#ff6A7088</item>
+        <item name="select_item_height">25dp</item>
+    </style>
+
+    <style name="DialogLoading" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/msyh.ttf</item>
+    </style>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="PayDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="HListViewTVStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- not namespace prefix -->
+
+        <item name="item_width">200dp</item>
+        <item name="item_height">200dp</item>
+        <item name="spacing">20dp</item>
+        <item name="gravity">center</item>
+        <item name="left_offset">130dp</item>
+        <item name="right_offset">130dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">common</string>
+
+    <!--ninekeyboard key -->
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2\nABCD</string>
+    <string name="key_3">3\nEFG</string>
+    <string name="key_4">4\nHIJ</string>
+    <string name="key_5">5\nKLM</string>
+    <string name="key_6">6\nNOP</string>
+    <string name="key_7">7\nQRS</string>
+    <string name="key_8">8\nTUV</string>
+    <string name="key_9">9\nWXYZ</string>
+    <string name="key_clear">清空</string>
+    <string name="key_back">退格</string>
+    <string name="search_tip">请输入首字母搜索</string>
+
+    <!-- 键盘自定义按键，这只是DEMO，你可以自定义自己的 -->
+    <string name="keycode_space">62</string> <!-- 空格 -->
+    <string name="keycode_center">66</string> <!-- 回车 -->
+    <string name="keycode_back">4</string> <!-- 返回 -->
+    <string name="keycode_left">21</string> <!-- 左边 -->
+    <string name="keycode_right">22</string> <!-- 右边 -->
+    <string name="keycode_del">67</string> <!-- 删除 -->
+
+
+    <string name="load_data_hint">加载中…</string>
+    <string name="load_tips">温馨提示</string>
+    <string name="ok">确定</string>
+    <string name="net_error">网络异常，请检查网络</string>
+
+
+    <string name="img_dsp">图片资源</string>
+    <string name="imgbtn_dsp">带按钮图片资源</string>
+    <string name="tips">温馨提示</string>
+    <string name="sure">确认</string>
+    <string name="cance">取消</string>
+
+</resources>
